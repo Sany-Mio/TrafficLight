@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var redCircleView: UIView!
+    @IBOutlet var yellowCircleView: UIView!
+    @IBOutlet var greenCircleView: UIView!
+    
+    @IBOutlet var pressingButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        pressingButton.layer.cornerRadius = 10
     }
-
-
 }
-
